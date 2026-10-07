@@ -73,7 +73,7 @@ if(document.modelContext?.registerTool){const signal=new AbortController();windo
 
 
 // ÚNICA CONFIGURACIÓN: pega aquí la URL de Apps Script terminada en /exec.
-const SHEET_API_URL = 'PEGAR_URL_DE_APPS_SCRIPT_AQUI';
+const SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbwXArNdvtWTWtS2ZoRiJil6va71YWN4qwlsY0dL86EzTaLPV_lH9rh7bNTHBmedJxQMwQ/exec';
 let sheetBusy=false,sheetLoaded=false;
 function getSheetData(){
  return new Promise((resolve,reject)=>{
